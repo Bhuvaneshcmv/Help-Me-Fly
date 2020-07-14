@@ -40,11 +40,13 @@ public class C_BirdScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene("Game Over");
         if (PlayerPrefs.GetInt("Birdie_HighScore") < g_ScoreMgr.GetComponent<C_ScoreMgrScript>().g_Score)
         {
             PlayerPrefs.SetInt("Birdie_HighScore", g_ScoreMgr.GetComponent<C_ScoreMgrScript>().g_Score);
         }
+        PlayerPrefs.SetInt("Birdie_LastScore", g_ScoreMgr.GetComponent<C_ScoreMgrScript>().g_Score);
+        SceneManager.LoadScene("Game Over");
+      
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

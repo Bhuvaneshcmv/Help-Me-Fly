@@ -16,7 +16,7 @@ public class C_ScoreMgrScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        g_TextObject.text = " Score : " + g_Score;
+        g_TextObject.text = " SCORE : " + g_Score;
     }
     public void m_increaseScore()
     {

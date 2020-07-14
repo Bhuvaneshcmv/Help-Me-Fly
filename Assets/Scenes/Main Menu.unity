@@ -373,7 +373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Best : '
+  m_Text: BEST
 --- !u!222 &359859544
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: START
 --- !u!222 &413280123
 CanvasRenderer:
   m_ObjectHideFlags: 0
